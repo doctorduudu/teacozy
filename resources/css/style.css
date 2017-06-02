@@ -1,0 +1,148 @@
+body{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: block;
+  align-content: center;
+  margin-top: 0;
+}
+header{
+  display: flex;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+header .maintitle{
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 10px;
+}
+
+header .navigation{
+  display: flex;
+  margin-top: 0px;
+  position: relative;
+  top: 0px;
+  left: 750px;
+}
+.navigation .navi{
+  display: inline-block;
+  padding: 0px 10px;
+}
+a{
+  color: inherit;
+}
+.maincontent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+
+}
+.firstcolumn{
+  display: block;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  align-self: center;
+  position: relative;
+  top: 70px;
+}
+.ourmission{
+  display: flex;
+  flex-direction: column;
+  margin-top: 310px;
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  height: 110px;
+}
+.ourmission h2,h4{
+  padding: 4px 0px;
+  margin: 4px 0px;
+
+}
+
+.secondcolumn{
+  display: block;
+  width: 1200px;
+  align-self: center;
+  margin-bottom: 30px;
+}
+.secondcolumn .teastext{
+  display: block;
+  margin-top: 165px;
+  text-align: center;
+}
+.teas{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  padding-left: 35px;
+  justify-content: center;
+
+}
+.teas .tea{
+  display: inline-block;
+  padding: 5px 15px;
+}
+.teas .tea img{
+  height: 200px;
+  width: 300px;
+  display: inline-flex;
+  flex-direction: row;
+}
+.teas .tea h4{
+  text-align: center;
+}
+
+.thirdcolumn{
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  width: 1200px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+
+
+#locationhead{
+  display: flex;
+  margin-bottom: 15px;
+  text-align: center;
+
+}
+.locations{
+  display: flex;
+}
+.location{
+  display: inline-block;
+  width: 280px;
+  height: 260px;
+  background-color: black;
+  margin: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.location h3,span{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.endnotes{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  justify-content: center;
+}
